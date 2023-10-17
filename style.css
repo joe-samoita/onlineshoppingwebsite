@@ -1,0 +1,24 @@
+p {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.links {
+    display: flex;
+
+
+}
+
+.links a{
+    border-radius: 5px;
+    background-color: #fda503;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: black;
+}

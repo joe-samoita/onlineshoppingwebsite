@@ -1,0 +1,33 @@
+body {
+    font-family: "Arial Black", sans-serif;
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+form {
+    background: white;
+    padding: 20px 30px;
+    width: 500px;
+    box-shadow: 0 2px 5px 5px cyan ;
+
+}
+label {
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100px;
+    height: 30px;
+}
+input[type="submit"] {
+    padding: 10px;
+    border-radius: unset;
+    background: dodgerblue;
+    color: black;
+    text-decoration: none;
+}
+input[type="submit"]:hover{
+    color: #ffa300;
+}
